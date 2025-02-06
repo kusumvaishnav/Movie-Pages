@@ -1,0 +1,140 @@
+/* Footer Styles */
+.footer {
+    background-color: #0f1014;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;  
+}
+
+
+
+.footer-column {
+    margin-bottom: 30px;
+    min-width: 200px;
+
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+   
+}
+
+.footer-links a, 
+.language-link {
+    color: #b0b6c7;
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.language-link:hover {
+    color: #ffffff;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #ffffff;
+    font-size: 40px;
+    transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    border-top: 1px solid #2d2d2d;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-bottom .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.copyright {
+    color: #8f98b2;
+    font-size: 22px;
+}
+
+.legal-links {
+    display: flex;
+    gap: 20px;
+}
+
+.legal-links a {
+    color: #8f98b2;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+    color: #ffffff;
+}
+
+.app-stores {
+    display: flex;
+    gap: 15px;
+}
+
+.store-link img {
+    height: 40px;
+    width: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-bottom .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .legal-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
